@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Button() {
-    const buttonName = 'Delete';
+function Button({buttonName}) {
+  console.log(buttonName);
   return <button className="button-component">{buttonName}</button>;
 }
 
