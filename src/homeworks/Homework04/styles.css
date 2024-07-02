@@ -1,0 +1,6 @@
+.homework04-component{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
