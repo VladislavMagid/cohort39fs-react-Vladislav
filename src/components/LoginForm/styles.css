@@ -1,0 +1,19 @@
+.login-form-component{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    min-height: 450px;
+    max-height: fit-content;
+    border-radius: 4px;
+    padding: 60px;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+.title-login-form{ 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}

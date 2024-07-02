@@ -1,11 +1,15 @@
 .button-component {
-    height: 150px;
-    width: 300px;
-    padding: 20px;
+    height: 70px;
+    width: 470px;
+    padding: 20px, 54px, 20px, 54px;
     border: none;
-    background: rgb(55, 92, 160);
-    font-size: 20px;
+    background: #1F27F5;
     color: white;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
 }
