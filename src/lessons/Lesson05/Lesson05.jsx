@@ -24,7 +24,19 @@ function Lesson05() {
   console.log(v4());
 
   const orderList = products.map((value) => {
-    return <li key={v4()} className="product">{value}</li>;
+    return (
+      <li key={v4()} className="product">
+        {value}
+      </li>
+    );
+  });
+
+  const menuButtons = buttonNames.map((value) => {
+    return (
+      <div key={v4()} className="button-control">
+        <Button  name={value} onClick={() => addProduct(value)}/>
+      </div>
+    );
   });
 
   console.log(orderList);
@@ -33,7 +45,8 @@ function Lesson05() {
     <div className="page-wrapper">
       <h1>Menu</h1>
       <div className="button-container">
-        <div className="button-control">
+        {menuButtons}
+        {/* <div className="button-control">
           <Button
             name={buttonNames[0]}
             onClick={() => addProduct(buttonNames[0])}
@@ -68,7 +81,7 @@ function Lesson05() {
             name={buttonNames[5]}
             onClick={() => addProduct(buttonNames[5])}
           />
-        </div>
+        </div> */}
       </div>
       <div className="order-list-container">
         <h2>Order list:</h2>
