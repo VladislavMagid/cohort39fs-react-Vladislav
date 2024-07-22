@@ -34,8 +34,6 @@ function Lesson03() {
     avatar: "https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png",
   };
 
-
-
   return (
     <div className="lesson03-wrapper">
       {/* <Card
